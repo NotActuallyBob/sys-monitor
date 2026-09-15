@@ -4,6 +4,8 @@ A lightweight cross-platform system monitoring dashboard built with Tauri, React
 
 Sys Monitor gives you a live view of your machine’s health with real-time CPU utilization, per-core charts, and memory usage trends. It is designed to run as a native desktop app while keeping the frontend easy to build and extend.
 
+<img width="1917" height="1150" alt="image" src="https://github.com/user-attachments/assets/159e2168-2836-447b-a107-42e812c9bd35" />
+
 ## Features
 
 - Live overall CPU usage tracking
