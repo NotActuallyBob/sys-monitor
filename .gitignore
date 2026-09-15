@@ -7,18 +7,48 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# JavaScript / Node dependencies & builds
 node_modules
 dist
 dist-ssr
 *.local
+.output
+.vite
+.next
+.nuxt
 
-# Editor directories and files
+# Tauri & Rust specific
+src-tauri/target/
+src-tauri/gen/
+*.app
+*.exe
+*.dmg
+*.deb
+*.appimage
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and Editors
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+*.swp
+
+# Environment variables
+.env
+.env.local
+.env.*.local
